@@ -1,7 +1,11 @@
 import Vue from "vue"
 import App from "./App.vue"
+// Import plugin
+import plugin from "./plugins"
 
-Vue.config.productionTip = false
+// Apply plugin
+
+Vue.use(plugin)
 
 new Vue({
     el:"#app",
