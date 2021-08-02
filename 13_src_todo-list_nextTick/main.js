@@ -6,7 +6,7 @@ Vue.config.productionTip = false
 new Vue({
     el:"#app",
     render: createElement => createElement(App),
-    beforeCreate(){
-        Vue.prototype.$bus = this
+    beforeCreate() {
+      Vue.prototype.$bus = this
     }
 })
