@@ -1,16 +1,16 @@
 <template>
-  <div class="container">
-    <Search/>
-    <UserList/>
+  <div>
+    <Addition/>
   </div>
 </template>
 
 <script>
-import Search from "./components/Search"
-import UserList from "./components/UserList"
+import Addition from "./components/Addition.vue"
 
 export default {
   name: "App",
-  components: { Search, UserList }
+  components: {  Addition }
 };
 </script>
+
+<style></style>
